@@ -1,5 +1,5 @@
 //**********************************************************************// 
-// ... Rutina: BANCO TRIFÁSICO YN-YN & Y-Y SIN CARGA                 ...//
+// ... Rutina: Transformador Monofásico SIN CARGA                 ...//
 // ... Autor: Marco Polo Jacome Toss                                 ...//
 // ... Version : 1.0                                                 ...//
 // ... Plataforma : Scilab (https://www.scilab.org) 6.0              ...//
