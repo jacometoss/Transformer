@@ -15,7 +15,7 @@ Simulación Transformador Monofásico 127 V
 // ...           >Peq7: Permeancia Total                            
 // ...           >Peq6: Permeancia                                   
 // ...           >Ldp : Inductancia de dispersion                   
-// ... function Iaeq                                               
+// ... function Io                                             
 // ...          >    Model: (1) para modelo T (2) para Pi            
 // ...          >  fluxmag: Flujo Magnertico (Wb)                   
 // ...          >         u: Permeabilidad                           
