@@ -6,5 +6,5 @@ Version : 0.01
 Plataforma : Scilab 6.0 (https://www.scilab.org)      
 Fecha : 2018.06.10          
 
-## Funcion : Harmonic
+## Funcion : harmonic
 El archivo require una muestra siendo necesario estimar el corte de la onda en un ciclo y determinar el números de datos.
