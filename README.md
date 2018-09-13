@@ -7,7 +7,7 @@ Plataforma : Scilab 6.0 (https://www.scilab.org)
 Fecha : 2018.06.10          
 
 ## Funcion : harmonic
-El archivo require una muestra siendo necesario estimar el corte de la onda en un ciclo y determinar el números de datos.
+El archivo require el paso, numero de muestras, tiempo de simulación, frecuencia, Vueltas del bobinado, longitud media de la seccion del circuito magnético, sección de las piernas, seccion de la pierna central.
 
 ```scilab
 
