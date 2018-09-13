@@ -7,7 +7,8 @@ Plataforma : Scilab 6.0 (https://www.scilab.org)
 Fecha : 2018.06.10          
 
 ## Funcion : harmonic
-El archivo require el paso, numero de muestras, tiempo de simulación, frecuencia, Vueltas del bobinado, longitud media de la seccion del circuito magnético, sección de las piernas, seccion de la pierna central.
+El archivo require el paso, numero de muestras, tiempo de simulación, frecuencia, Vueltas del bobinado, longitud media de la seccion del circuito magnético, sección de las piernas, seccion de la pierna central, señal si esta en adelanto o retraso y el número de armónicas
+a mostrar.
 
 Las variables de salida 
 * X descomposicion de armonicas pares e impares.
