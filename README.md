@@ -9,6 +9,12 @@ Fecha : 2018.06.10
 ## Funcion : harmonic
 El archivo require el paso, numero de muestras, tiempo de simulación, frecuencia, Vueltas del bobinado, longitud media de la seccion del circuito magnético, sección de las piernas, seccion de la pierna central.
 
+Las variables de salida 
+* X descomposicion de armonicas pares e impares.
+* Armónicas 
+* Amplitud de armónicas
+
+
 ```scilab
 
 function [X,armonicas,amplitud,FFT_50_HARM,FFT_50_HARM_SEC_ZERO,FluxT,FluxTSC,HARM]=harmonic(N,h,Muestra,tk,fhz,Np,lmFlux,SeccionI,Senal,nHarm)
