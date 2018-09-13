@@ -11,8 +11,14 @@ El archivo require el paso, numero de muestras, tiempo de simulación, frecuenci
 
 Las variables de salida 
 * X descomposicion de armonicas pares e impares.
-* Armónicas 
-* Amplitud de armónicas
+* Armónicas.
+* Amplitud de armónicas.
+* FFT_50_HARM Cincuenta armonicas en forma de onda recuperada.
+* FFT_50:HARM_SEC_ZERO Cincuentra armónicas en forma de onda recuperada sin incluir la secuencia cero.
+* FFT_T: Flujo magnético total recuperado.
+* FFT_TSC: Flujo magnéticvo sin secuencia cero.
+* HARM: Despliega la tabla para las primeras 50 armóicas de la señal analizada
+
 
 
 ```scilab
