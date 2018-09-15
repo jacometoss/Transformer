@@ -132,3 +132,22 @@ FluxTSC=interp1(Fmm,Flux,(FFT_50_HARM'-FFT_50_HARM_SEC_ZERO')*Np)
 endfunction
 
 ```
+
+## Parámetros de simulación
+```scilab
+getd .;
+t0=-30/60;
+tf=3/60;
+Ciclos=3;
+N=13200; // Numero de muestras
+Vrms=127; //Voltaje de fuente 
+fhz=60; // Frecuencia 
+Model=2; //Modelo T 1  %pi 2
+flux_almacenado=1e-16; //Flujo Almacenado
+fluxmag(1)=flux_almacenado; // Estado Inicial    
+h=(tf-t0)/N; //Paso de integracion
+W=2*%pi*fhz; 
+Vm=Vrms*sqrt(2); //Voltaje Maximo  
+
+Theta=0; // Angulo [Fase A]
+```
