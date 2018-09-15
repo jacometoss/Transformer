@@ -148,6 +148,5 @@ fluxmag(1)=flux_almacenado; // Estado Inicial
 h=(tf-t0)/N; //Paso de integracion
 W=2*%pi*fhz; 
 Vm=Vrms*sqrt(2); //Voltaje Maximo  
-
 Theta=0; // Angulo [Fase A]
 ```
