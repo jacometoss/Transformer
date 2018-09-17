@@ -153,5 +153,5 @@ Theta=0; // Angulo [Fase A]
 
 ## Corriente de vacío (Excitacitación)
 
-![GitHub Logo](https://image.ibb.co/cxDVge/Io.jpg)
+![GitHub Logo](https://image.ibb.co/dAZT1e/Io.jpg)
 
