@@ -6,6 +6,8 @@ Version : 0.01
 Plataforma : Scilab 6.0 (https://www.scilab.org)      
 Fecha : 2018.06.10          
 
+![GitHub Logo](https://image.ibb.co/dAZT1e/Io.jpg)
+
 ## Funcion : harmonic
 El archivo require el paso, numero de muestras, tiempo de simulación, frecuencia, Vueltas del bobinado, longitud media de la seccion del circuito magnético, sección de las piernas, seccion de la pierna central, señal si esta en adelanto o retraso y el número de armónicas
 a mostrar.
@@ -153,5 +155,5 @@ Theta=0; // Angulo [Fase A]
 
 ## Corriente de vacío (Excitación)
 
-![GitHub Logo](https://image.ibb.co/dAZT1e/Io.jpg)
+
 
