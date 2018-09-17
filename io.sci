@@ -22,13 +22,9 @@ case 1 then
         k3 = h*(((1/Np)*(Vm*cos(W*(t(i)+h/2)+Theta)-((Req*Np*fluxmag(i))/(Ldp(i))))+0.5*k2));                    
         k4 = h*(((1/Np)*(Vm*cos(W*(t(i)+h)+Theta)-((Req*Np*fluxmag(i))/(Ldp(i))))+k3));
         fluxmag(i+1) = fluxmag(i) + (k1 + 2*k2 + 2*k3 + k4)/6;
-        
-       Ia(i+1)=(Np*fluxmag(i))/(abs(Peq7(i))*Np^2);
-       Peq7(i+1)=Peq7(i);
-       Ldp(i+1)=Ldp(i);
-       t(i+1) = t0 + i*h;
-       u(i+1)=u(i);
-       Lambda(i+1)=fluxmag(i)*Np;;        
+       
+       t(i) = t0 + i*h;
+   
 
 case 2 then
     
