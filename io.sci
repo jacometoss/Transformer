@@ -22,8 +22,7 @@ case 1 then
         k3 = h*(((1/Np)*(Vm*cos(W*(t(i)+h/2)+Theta)-((Req*Np*fluxmag(i))/(Ldp(i))))+0.5*k2));                    
         k4 = h*(((1/Np)*(Vm*cos(W*(t(i)+h)+Theta)-((Req*Np*fluxmag(i))/(Ldp(i))))+k3));
         fluxmag(i+1) = fluxmag(i) + (k1 + 2*k2 + 2*k3 + k4)/6;
-       
-       t(i) = t0 + i*h;
+        t(i) = t0 + i*h;
    
 
 case 2 then
