@@ -151,7 +151,7 @@ Vm=Vrms*sqrt(2); //Voltaje Maximo
 Theta=0; // Angulo [Fase A]
 ```
 
-## Corriente de vacío (Excitacitación)
+## Corriente de vacío (Excitación)
 
 ![GitHub Logo](https://image.ibb.co/dAZT1e/Io.jpg)
 
