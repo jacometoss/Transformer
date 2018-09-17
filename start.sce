@@ -113,6 +113,7 @@ xlabel("Tiempo, Seg")
 ylabel("Io, A")
 legend("Io","Io FTT")
 xgrid(35)
+//Exportación de datos a CSV
 d1=t(xx:yy);
 d2=FluxTAp(xx:yy);
 d3=IaTAp(xx:yy);
