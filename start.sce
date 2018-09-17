@@ -108,7 +108,7 @@ xgrid(35)
 scf(6)
 plot(t(xx:yy),IaTAp(xx:yy),'b');
 plot(t(xx:yy),data_2d(1:Nm*Ciclos)','r')
-title("Comparacion de Onda Original y Recuperada ")
+title("Comparacion de vacío ( Original y Recuperada ) ")
 xlabel("Tiempo, Seg")
 ylabel("Io, A")
 legend("Io","Io FTT")
