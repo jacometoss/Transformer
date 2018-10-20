@@ -135,6 +135,7 @@ endfunction
 ```
 
 ## Parámetros de simulación
+Para iniciar el código fuente es necesario abrir la plataforma de Scilab con el archiv Start.sce de esta manera se cargan los archivos con extensión "sci".
 ```scilab
 getd .;
 t0=-30/60;
@@ -152,7 +153,15 @@ Vm=Vrms*sqrt(2); //Voltaje Maximo
 Theta=0; // Angulo [Fase A]
 ```
 
-## Corriente de vacío (Excitación)
+## Corriente de vacío  y Onda Recuperada
 
 ![GitHub Logo](https://image.ibb.co/dAZT1e/Io.jpg)
+
+## Espectro de frecuencias
+
+![GitHub Logo](https://image.ibb.co/cWOv30/espectro.jpg)
+
+
+
+
 
