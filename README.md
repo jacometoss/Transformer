@@ -161,7 +161,7 @@ Theta=0; // Angulo [Fase A]
 
 ![GitHub Logo](https://image.ibb.co/cWOv30/espectro.jpg)
 
-Exportar Resultados CSV
+## Exportar Resultados CSV :open_file_folder:
 ```scilab
 d1=t(xx:yy);
 d2=FluxTAp(xx:yy);
