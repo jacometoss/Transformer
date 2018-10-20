@@ -135,6 +135,7 @@ endfunction
 ```
 
 ## Parámetros de simulación
+Para iniciar el código fuente es necesario abrir la plataforma de Scilab con el archiv Start.sce de esta manera se cargan los archivos con extensión "sci".
 ```scilab
 getd .;
 t0=-30/60;
