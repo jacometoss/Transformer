@@ -161,7 +161,18 @@ Theta=0; // Angulo [Fase A]
 
 ![GitHub Logo](https://image.ibb.co/cWOv30/espectro.jpg)
 
-
+Exportar Resultados CSV
+```scilab
+d1=t(xx:yy);
+d2=FluxTAp(xx:yy);
+d3=IaTAp(xx:yy);
+d4=EindTAp(xx:yy);
+d5=VAp(xx:yy);
+ruta=strcat([pwd(),'\result.csv'])
+write_csv([d1,d2,d3,d4,d5],ruta)
+ruta2=strcat([pwd(),'\harm.csv'])
+write_csv([data_2f data_3f],ruta2)
+```
 
 
 
