@@ -152,7 +152,15 @@ Vm=Vrms*sqrt(2); //Voltaje Maximo
 Theta=0; // Angulo [Fase A]
 ```
 
-## Corriente de vacío (Excitación)
+## Corriente de vacío  y Onda Recuperada
 
 ![GitHub Logo](https://image.ibb.co/dAZT1e/Io.jpg)
+
+## Espectro de frecuencias
+
+![GitHub Logo](https://image.ibb.co/cWOv30/espectro.jpg)
+
+
+
+
 
