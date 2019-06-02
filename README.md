@@ -159,8 +159,6 @@ Theta=0; // Angulo [Fase A]
 
 ![GitHub Logo](https://image.ibb.co/cWOv30/espectro.jpg)
 
-## Exportar Resultados CSV
-=======
 ## Exportar Resultados CSV 
 
 ```scilab
